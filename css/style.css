@@ -315,4 +315,44 @@ body {
     background-color: #f9fafb;
 }
 
+@media(min-width: 768px) and (max-width: 1199px) {
+    .hero-section {
+        padding: 50px 0;
+    }
 
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+
+    .product-img {
+        height: 210px;
+    }
+
+    .benefit-card {
+        padding: 20px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+    .hero-section h1 {
+        font-size: 2.6rem;
+    }
+
+    .section-title,
+    .catalog-title {
+        font-size: 1.8rem;
+        margin-bottom: 28px;
+    }
+
+    .product-img {
+        height: 190px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .d-flex {
+        justify-content: center;
+    }
+}
