@@ -2,3 +2,36 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #354b69;
 }
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #2b338e !important;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    padding: 8px 20px !important;
+    margin: 0 4px;
+    border-radius: 25px;
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #42476e !important;
+    color: white !important;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(124, 58, 237, 0.3);
+}
+
+.navbar-nav .nav-link:not(.active):hover {
+    background-color: rgba(58, 106, 237, 0.1);
+}
+
+.header-icons .nav-link {
+    font-size: 1.4rem;
+    padding: 8px 12px !important;
+    border-radius: 50%;
+}
+
+.header-icons .nav-link:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
