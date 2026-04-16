@@ -422,3 +422,20 @@ body {
         justify-content: center;
     }
 }
+
+footer {
+    background-color: #1e1b2e;
+    color: #d1d5db;
+    padding: 45px 0 20px;
+    margin-top: 70px;
+}
+
+footer h5 {
+    color: white;
+    margin-bottom: 18px;
+    font-weight: 600;
+}
+
+footer ul li {
+    margin-bottom: 8px;
+}
