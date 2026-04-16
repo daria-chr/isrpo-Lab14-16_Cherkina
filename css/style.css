@@ -1,11 +1,11 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #354b69;
+    color: #523569;
 }
 
 .navbar-brand {
     font-size: 1.5rem;
-    color: #2b338e !important;
+    color: #662b8e !important;
 }
 
 .navbar-nav .nav-link {
@@ -16,14 +16,14 @@ body {
 }
 
 .navbar-nav .nav-link.active {
-    background-color: #42476e !important;
+    background-color: #57426e !important;
     color: white !important;
     font-weight: 600;
     box-shadow: 0 4px 10px rgba(124, 58, 237, 0.3);
 }
 
 .navbar-nav .nav-link:not(.active):hover {
-    background-color: rgba(58, 106, 237, 0.1);
+    background-color: rgba(133, 58, 237, 0.1);
 }
 
 .header-icons .nav-link {
@@ -37,7 +37,7 @@ body {
 }
 
 .hero-section {
-    background: linear-gradient(160deg, #6977d3 0%, #062e83 100%);
+    background: linear-gradient(160deg, #a069d3 0%, #240559 100%);
     color: white;
     min-height: 380px;
     display: flex;
@@ -58,7 +58,7 @@ body {
 .hero-section .btn-light {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    color: #3a61ed;
+    color: #ab3aed;
     font-weight: 600;
 }
 
@@ -66,4 +66,104 @@ body {
     transform: translateY(-3px);
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
+
+.catalog-title,
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.product-card {
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.badge-container {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: 1;
+}
+
+.product-img {
+    height: 240px;
+    object-fit: contain;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.product-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.product-description {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.reviews-count {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.old-price {
+    color: #9ca3af;
+    text-decoration: line-through;
+    font-size: 0.95rem;
+}
+
+.new-price {
+    color: #624495;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+
+.btn-purple {
+    background-color: #631d7a;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-purple:hover {
+    background-color: #761ea1;
+    color: white;
+    transform: scale(1.02);
+}
+
+.btn-outline-purple {
+    border: 2px solid #883aed;
+    color: #7c3aed;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-purple:hover {
+    background-color: #8e3aed;
+    color: white;
+}
+
+.bg-purple {
+    background-color: #6516cd !important;
+    color: white;
+}
+
+
 
