@@ -165,5 +165,154 @@ body {
     color: white;
 }
 
+.product-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 32px rgba(124, 58, 237, 0.15) !important;
+}
+
+.benefit-card {
+    background-color: white;
+    border-radius: 14px;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.12);
+    border-color: #7c3aed;
+}
+
+.stats-card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 30px 20px;
+    text-align: center;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.12);
+    border-color: #7c3aed;
+}
+
+.stats-number {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #7c3aed;
+    margin-bottom: 8px;
+}
+
+.stats-label {
+    color: #6c757d;
+    font-weight: 500;
+}
+
+.team-card {
+    background-color: white;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 28px rgba(124, 58, 237, 0.12);
+    border-color: #7c3aed;
+}
+
+.team-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.team-body {
+    padding: 20px;
+}
+
+.team-name {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.team-position {
+    color: #7c3aed;
+    font-weight: 600;
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 3px 12px;
+    background-color: #ede9fe;
+    border-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.team-description {
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.reason-card {
+    background-color: white;
+    border-radius: 14px;
+    padding: 25px;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.reason-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(124, 58, 237, 0.1);
+    border-color: #7c3aed;
+}
+
+.reason-icon {
+    font-size: 2.5rem;
+    margin-bottom: 14px;
+}
+
+.reason-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.reason-text {
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.bg-light-purple {
+    background-color: #faf5ff;
+}
+
+.breadcrumb-path {
+    color: #6c757d;
+    margin-bottom: 16px;
+}
+
+.breadcrumb-path a {
+    color: #7c3aed;
+    text-decoration: none;
+}
+
+.breadcrumb-path a:hover {
+    text-decoration: underline;
+}
+
+.benefits-section {
+    background-color: #f9fafb;
+}
 
 
